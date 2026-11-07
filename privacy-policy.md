@@ -1,6 +1,6 @@
 # Life Reset Privacy Policy
 
-**Effective date:** 15 October 2026
+**Effective date:** 7 November 2026
 
 Life Reset is a habit and personal-reset application. This policy explains the information the app processes and the choices available to you.
 
@@ -26,17 +26,22 @@ If analytics is enabled in Privacy settings, Firebase Analytics may process app 
 
 Crash reporting is separate from the optional analytics setting, and turning off Analytics does not turn off crash reporting. When Firebase is available, Firebase Crashlytics processes uncaught errors and technical information about the app, device and failure so crashes can be diagnosed. The current app does not provide a separate Crashlytics control. Life Reset does not attach your Firebase account identifier, email or user-entered reset text to crash reports through custom fields.
 
+**Advertising measurement (optional).** If you allow advertising measurement, Life Reset uses the Meta SDK so we can see which ads bring people to the app. Meta measures installs, app opens and session usage using app and device identifiers, including your advertising identifier and, on iOS, only if you also grant system tracking permission. Life Reset itself adds only two events, with no details attached: onboarding completed and paywall viewed. We do not send check-ins, mood, journal notes, habits or other wellness content, and we do not send your name, email or Firebase account identifier in these events. Purchases are not measured today. We may add purchase measurement later, only for people who allow advertising measurement, and we will update this policy first.
+
+This choice is separate from the analytics setting. You can decline and still use every feature. You can change your choice in Privacy settings, and on iOS you can also turn tracking off in system Settings. After you withdraw, the app stops adding new measurement events and turns off advertising identifier collection. Events already passed to the measurement system may still be processed. Meta processes this information under its own terms and policies.
+
 ## Notifications and widgets
 
 Notification scheduling and delivery remain on your device. If you sign in, reminder enablement choices and reminder times are included in synchronized settings. The current app does not upload a push-notification token. Home-screen widgets can display a limited snapshot of your current progress in the platform's shared app container. Anyone with access to your unlocked device may be able to see widget content.
 
 ## Service providers
 
-Life Reset uses service providers only to operate the app:
+Life Reset uses these service providers to operate the app and, if you allow it, to measure advertising:
 
 - Apple and Google for distribution, sign-in and purchases;
 - Google Firebase for authentication, synchronized storage, configuration, analytics and crash reporting;
-- RevenueCat for subscription and entitlement management.
+- RevenueCat for subscription and entitlement management;
+- Meta Platforms for optional advertising measurement, only if you allow it.
 
 Their processing is governed by their own privacy terms and applicable data-processing agreements.
 
